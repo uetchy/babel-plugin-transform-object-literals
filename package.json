@@ -6,6 +6,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src/index.js -d lib",
+    "prepublish": "yarn build",
     "test": "jest"
   },
   "dependencies": {
