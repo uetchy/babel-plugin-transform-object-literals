@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-plugin-transfrom-object-literals 1. babel-plugin-transfrom-object-literals: 1. babel-plugin-transfrom-object-literals 1`] = `
+"
+const json = {
+      items: {
+        name: 'Sun',
+        where: 'Solar sytem',
+      },
+    }
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const json = JSON.parse(\\"{\\\\\\"items\\\\\\":{\\\\\\"name\\\\\\":\\\\\\"Sun\\\\\\",\\\\\\"where\\\\\\":\\\\\\"Solar sytem\\\\\\"}}\\");
+"
+`;
+
+exports[`babel-plugin-transfrom-object-literals 2. babel-plugin-transfrom-object-literals: 2. babel-plugin-transfrom-object-literals 1`] = `
+"
+const json = {
+      items: {
+        1: 5,
+        100: 500,
+      },
+    }
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const json = JSON.parse(\\"{\\\\\\"items\\\\\\":{\\\\\\"1\\\\\\":5,\\\\\\"100\\\\\\":500}}\\");
+"
+`;
+
+exports[`babel-plugin-transfrom-object-literals 3. babel-plugin-transfrom-object-literals: 3. babel-plugin-transfrom-object-literals 1`] = `
+"
+const json = {
+      items: [1,2,3]
+    }
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const json = JSON.parse(\\"{\\\\\\"items\\\\\\":[1,2,3]}\\");
+"
+`;

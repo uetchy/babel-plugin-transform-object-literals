@@ -1,0 +1,3 @@
+{
+  "plugins": ["transfrom-object-literals"]
+}

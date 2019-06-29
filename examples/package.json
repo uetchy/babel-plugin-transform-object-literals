@@ -1,0 +1,16 @@
+{
+  "name": "examples",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel input.js -o output.js"
+  },
+  "dependencies": {
+    "babel-plugin-transfrom-object-literals": "link:.."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5"
+  },
+  "license": "MIT"
+}
