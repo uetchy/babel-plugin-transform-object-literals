@@ -8,6 +8,9 @@
     "build": "babel src/index.js -d lib",
     "test": "jest"
   },
+  "dependencies": {
+    "core-js": "3"
+  },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
