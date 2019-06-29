@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-transfrom-object-literals",
   "description": "Replace serializable object literals with JSON.parse().",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
   "main": "lib/index.js",
   "scripts": {
