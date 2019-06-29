@@ -5,7 +5,9 @@
       {
         "targets": {
           "node": "6.10"
-        }
+        },
+        "useBuiltIns": "usage",
+        "corejs": 3
       }
     ]
   ]

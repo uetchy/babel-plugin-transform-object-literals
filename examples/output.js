@@ -1,2 +1,2 @@
-const json = JSON.parse("{\"items\":{\"1\":5,\"100\":500}}");
-console.log(json);
+const data = JSON.parse("{\"foo\":42,\"bar\":1337}");
+console.log(data);
