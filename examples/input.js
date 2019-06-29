@@ -3,4 +3,4 @@ const data = {
   bar: 1337
 }
 
-console.log(json)
+console.log(data)
