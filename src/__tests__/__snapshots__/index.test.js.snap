@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`babel-plugin-transfrom-object-literals 1. babel-plugin-transfrom-object-literals: 1. babel-plugin-transfrom-object-literals 1`] = `
+exports[`babel-plugin-transform-object-literals 1. babel-plugin-transform-object-literals: 1. babel-plugin-transform-object-literals 1`] = `
 "
 const json = {
       items: {
@@ -15,7 +15,7 @@ const json = JSON.parse(\\"{\\\\\\"items\\\\\\":{\\\\\\"name\\\\\\":\\\\\\"Sun\\
 "
 `;
 
-exports[`babel-plugin-transfrom-object-literals 2. babel-plugin-transfrom-object-literals: 2. babel-plugin-transfrom-object-literals 1`] = `
+exports[`babel-plugin-transform-object-literals 2. babel-plugin-transform-object-literals: 2. babel-plugin-transform-object-literals 1`] = `
 "
 const json = {
       items: {
@@ -30,7 +30,7 @@ const json = JSON.parse(\\"{\\\\\\"items\\\\\\":{\\\\\\"1\\\\\\":5,\\\\\\"100\\\
 "
 `;
 
-exports[`babel-plugin-transfrom-object-literals 3. babel-plugin-transfrom-object-literals: 3. babel-plugin-transfrom-object-literals 1`] = `
+exports[`babel-plugin-transform-object-literals 3. babel-plugin-transform-object-literals: 3. babel-plugin-transform-object-literals 1`] = `
 "
 const json = {
       items: [1,2,3]

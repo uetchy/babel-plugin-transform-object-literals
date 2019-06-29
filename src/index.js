@@ -18,7 +18,7 @@ function convert(node, t) {
 
 module.exports = function({ types: t }) {
   return {
-    name: 'babel-plugin-transfrom-object-literals',
+    name: 'babel-plugin-transform-object-literals',
     visitor: {
       ObjectExpression(path) {
         const obj = convert(path.node, t)

@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-transfrom-object-literals",
+  "name": "babel-plugin-transform-object-literals",
   "description": "Replace serializable object literals with JSON.parse().",
   "version": "0.1.0",
   "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
@@ -17,18 +17,18 @@
     "jest": "^24.8.0"
   },
   "bugs": {
-    "url": "https://github.com/uetchy/babel-plugin-transfrom-object-literals/issues"
+    "url": "https://github.com/uetchy/babel-plugin-transform-object-literals/issues"
   },
   "files": [
     "src/*.js"
   ],
-  "homepage": "https://github.com/uetchy/babel-plugin-transfrom-object-literals",
+  "homepage": "https://github.com/uetchy/babel-plugin-transform-object-literals",
   "keywords": [
-    "babel-plugin-transfrom-object-literals"
+    "babel-plugin-transform-object-literals"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uetchy/babel-plugin-transfrom-object-literals.git"
+    "url": "https://github.com/uetchy/babel-plugin-transform-object-literals.git"
   }
 }
