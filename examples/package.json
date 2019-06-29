@@ -6,7 +6,7 @@
     "build": "babel input.js -o output.js"
   },
   "dependencies": {
-    "babel-plugin-transform-object-literals": "link:.."
+    "babel-plugin-transform-object-literals": "^0.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

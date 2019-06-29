@@ -214,9 +214,10 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-"babel-plugin-transform-object-literals@link:..":
-  version "0.0.0"
-  uid ""
+babel-plugin-transform-object-literals@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-literals/-/babel-plugin-transform-object-literals-0.2.0.tgz#687009598a116d09262efaa5ef806a6bd52184ea"
+  integrity sha512-y5wz1LpkSutvqqkPBKGYHvNpCWjbevXPQEySxsqeSt+1nB/3Wx7Acgf/o/iFBSODhmIKsK2WvV72juSom1StBQ==
 
 balanced-match@^1.0.0:
   version "1.0.0"
