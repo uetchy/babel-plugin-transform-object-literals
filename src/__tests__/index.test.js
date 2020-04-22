@@ -8,7 +8,7 @@ pluginTester({
   tests: [
     `const json = {
       items: {
-        name: 'Sun',
+        name: "Sun",
         where: 'Solar sytem',
       },
     }`,
@@ -22,5 +22,7 @@ pluginTester({
     `const json = {
       items: [1,2,3]
     }`,
+    ,
+    `const json = [1, '1', 'a']`,
   ],
 })

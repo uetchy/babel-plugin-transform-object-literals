@@ -4,7 +4,7 @@ exports[`babel-plugin-transform-object-literals 1. babel-plugin-transform-object
 "
 const json = {
       items: {
-        name: 'Sun',
+        name: \\"Sun\\",
         where: 'Solar sytem',
       },
     }
